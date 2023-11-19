@@ -1,12 +1,35 @@
 *{
     margin: 0px;
+    font-family: monospace;
 }
 .container{
+    background-color: pink;
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.calc-box{
+    background-color: beige;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    border: solid black 2px;
+    border-radius: 15px;
+}
+.gatinho{
+    margin-top: 50px;
+}
+
+select{
+    padding: 5px;
 }
 input{
     padding: 5px;
